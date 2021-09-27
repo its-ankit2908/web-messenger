@@ -1,0 +1,45 @@
+
+.header{
+    display: flex;
+    background: red;
+}
+
+.menu{
+    display: flex;
+    margin:20px;
+}
+
+.menu > li > a{
+    color:#fff;
+    font-weight: bold;
+    text-shadow:0 0;
+    text-decoration: none;
+}
+
+.leftMenu{
+   display: flex;
+   color: #fff;
+   margin:20px;   
+   
+}
+
+.leftMenu > li{
+    margin:0 10px;
+    list-style: none;
+}
+
+.leftMenu > li > a{
+     color:#fff;
+     text-decoration: none;
+}
+
+.leftMenu > li > a:hover{
+   
+    text-decoration: none;
+}
+
+
+.leftMenu > li > a.active{
+     font-weight: bold;
+}
+

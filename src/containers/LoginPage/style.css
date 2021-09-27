@@ -1,0 +1,10 @@
+.loginContainer,.registerContainer{
+     width: 400px;
+     position: relative;
+     margin:50px auto;
+}
+
+.inputbx{
+    position: relative;
+    padding:10px 0;
+}
